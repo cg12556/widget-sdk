@@ -79,8 +79,14 @@ export default class mockedWidgetApi {
   };
 
   // Image upload api
-  uploadImage = async (input: UploadInput) =>
+  uploadImage = async (input: UploadInput) => {
     console.log('_MOCK uploadImage called', this.getWidgetId(), input);
+    return {
+      url: 'https://example.com/mock-uploaded-image.jpg',
+      id: 'mock-image-id-' + Date.now(),
+      filename: input.file?.name || 'mock-image.jpg'
+    };
+  };
 
   // metaScaperExtract api
   metaScaperExtract = async (url: string) =>
