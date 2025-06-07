@@ -1,7 +1,7 @@
 {
   "version": "0.2.5",
   "license": "MIT",
-  "main": "dist/index.js",
+  "main": "dist/widget-sdk.cjs.production.min.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist",
@@ -33,7 +33,7 @@
   },
   "name": "@happeo/widget-sdk",
   "author": "Antero Hanhirova",
-  "module": "dist/index.js",
+  "module": "dist/widget-sdk.esm.js",
   "size-limit": [
     {
       "path": "dist/widget-sdk.cjs.production.min.js",
