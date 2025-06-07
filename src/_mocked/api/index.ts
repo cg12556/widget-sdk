@@ -84,7 +84,7 @@ export default class mockedWidgetApi {
     return {
       url: 'https://example.com/mock-uploaded-image.jpg',
       id: 'mock-image-id-' + Date.now(),
-      filename: input.file?.name || 'mock-image.jpg'
+      filename: input.files[0]?.name || 'mock-image.jpg'
     };
   };
 
