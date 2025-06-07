@@ -1,0 +1,25 @@
+{
+  "name": "happeo-audio-player-widget",
+  "version": "1.0.0",
+  "description": "Audio player widget for Happeo channels with upload functionality",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "dev": "vite"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@happeo/widget-sdk": "file:../..",
+    "lucide-react": "^0.263.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.3",
+    "vite": "^4.4.5",
+    "typescript": "^5.0.2"
+  }
+}
