@@ -182,7 +182,7 @@ const App: React.FC = () => {
 
       <div className="widget-content">
         {error && (
-          <div className="error" onClick={clearMessages} style={{ cursor: 'pointer' }}>
+          <div className="error\" onClick={clearMessages} style={{ cursor: 'pointer' }}>
             {error}
           </div>
         )}

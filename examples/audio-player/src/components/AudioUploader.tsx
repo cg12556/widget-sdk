@@ -62,7 +62,7 @@ const AudioUploader: React.FC<AudioUploaderProps> = ({ onUpload, isUploading, ca
 
   if (!canUpload) {
     return (
-      <div className="upload-section" style={{ cursor: 'not-allowed', opacity: 0.6 }}>
+      <div className="upload-section\" style={{ cursor: 'not-allowed', opacity: 0.6 }}>
         <AlertCircle size={48} className="upload-icon" />
         <div className="upload-text">Upload not available</div>
         <div className="upload-hint">You don't have permission to upload files</div>
