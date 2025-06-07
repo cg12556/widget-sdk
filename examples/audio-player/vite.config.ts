@@ -10,5 +10,8 @@ export default defineConfig({
   build: {
     outDir: 'dist',
     sourcemap: true
+  },
+  define: {
+    'process.env.MOCK_WIDGET_SDK': JSON.stringify(true)
   }
 })
